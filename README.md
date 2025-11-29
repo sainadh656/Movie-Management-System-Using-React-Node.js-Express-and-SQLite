@@ -1,13 +1,13 @@
-**Movie Management System**
+🎬 # Movie Management System
 
 A Full-Stack Web Application using React, Node.js, Express, and SQLite
 
-**Overview**
+📖 Overview
 
 The Movie Management System is a full-stack web application built to manage, search, and explore movie information.
 It includes movie CRUD operations, director management, search with autocomplete, and poster-based movie display.
 
-**This project uses:**
+This project uses:
 
 React.js – Frontend UI
 
@@ -19,8 +19,8 @@ REST APIs – Communication between client & server
 
 It functions like a mini-IMDB where users can add, update, search, and browse movies easily.
 
- **Features**
-** Movie Module**
+🚀 Features
+🎞️ Movie Module
 
 View all movies
 
@@ -36,7 +36,7 @@ Show movie IDs
 
 Autocomplete movie search
 
-**Director Module**
+🎬 Director Module
 
 Add new directors
 
@@ -48,7 +48,7 @@ View movies by specific directors
 
 Display poster & movie details
 
-**Smart Search**
+🔍 Smart Search
 
 Real-time search
 
@@ -58,7 +58,7 @@ Instant filtering
 
 Search via URL params /movies/search/:name
 
-**Extra Features**
+🧩 Extra Features
 
 Navigation bar for easy routing
 
@@ -68,8 +68,7 @@ Clean folder structure
 
 Extensible for future features
 
-**Tech Stack**
-
+🏗️ Tech Stack
 Frontend
 
 React.js
@@ -124,6 +123,7 @@ movie-management-system/
 │   └── package.json
 │
 └── README.md
+
 
 🛠️ Backend Setup
 cd backend
