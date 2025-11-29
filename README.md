@@ -1,97 +1,69 @@
-🎬 # Movie Management System
+<div align="center">
 
-A Full-Stack Web Application using React, Node.js, Express, and SQLite
+# 🎬 Movie Management System  
+### A full-stack movie database using React, Node.js, Express & SQLite
 
-📖 Overview
+![Frontend](https://img.shields.io/badge/Frontend-React-00eaff?style=for-the-badge&logo=react)
+![Backend](https://img.shields.io/badge/Backend-Node.js-3ddc84?style=for-the-badge&logo=node.js)
+![Database](https://img.shields.io/badge/Database-SQLite-8181ff?style=for-the-badge&logo=sqlite)
+![Status](https://img.shields.io/badge/Status-Completed-00c851?style=for-the-badge)
 
-The Movie Management System is a full-stack web application built to manage, search, and explore movie information.
-It includes movie CRUD operations, director management, search with autocomplete, and poster-based movie display.
+</div>
 
-This project uses:
+---
 
-React.js – Frontend UI
+## 🌙 Overview (Dark UI)
 
-Node.js + Express.js – Backend API
+This Movie Management System is a dark-themed full-stack web app that allows users to:
 
-SQLite – Database
+- 🎞️ Browse movies with posters  
+- 🎬 Manage directors  
+- ✏️ Add / Update / Delete movies  
+- 🔍 Search movies & directors (autocomplete)  
+- 🎥 View all movies by a director  
 
-REST APIs – Communication between client & server
+It works like a mini-IMDB with a simple and beautiful UI.
 
-It functions like a mini-IMDB where users can add, update, search, and browse movies easily.
+---
 
-🚀 Features
-🎞️ Movie Module
+## ✨ Features
 
-View all movies
+### 🎥 Movie Features  
+- Add, update, delete movies  
+- View movie ID, poster, and actors  
+- Responsive cards layout  
+- Movie search `/movies/search/:name`
 
-Add new movies
+### 🎬 Director Features  
+- Add directors  
+- Search directors  
+- View movies by director  
 
-Update existing movies
+### 🔍 Smart Search  
+- Autocomplete dropdown  
+- Fast filter results  
+- Dark-mode UI
 
-Delete movies
+---
 
-Display movie posters
+## 🖼 Screenshots (Add Your Images)
 
-Show movie IDs
+> Upload images to GitHub → Inside `assets/` folder → Replace file names below
 
-Autocomplete movie search
 
-🎬 Director Module
+```md
+<p align="center">
+  <img src="assets/dark-home.png" width="75%" />
+</p>
 
-Add new directors
+<p align="center">
+  <img src="assets/dark-movies.png" width="75%" />
+</p>
 
-View all directors
+<p align="center">
+  <img src="assets/dark-search.png" width="75%" />
+</p>
 
-Search director by name
-
-View movies by specific directors
-
-Display poster & movie details
-
-🔍 Smart Search
-
-Real-time search
-
-Autocomplete suggestions
-
-Instant filtering
-
-Search via URL params /movies/search/:name
-
-🧩 Extra Features
-
-Navigation bar for easy routing
-
-Modern UI with card layouts
-
-Clean folder structure
-
-Extensible for future features
-
-🏗️ Tech Stack
-Frontend
-
-React.js
-
-HTML5
-
-CSS3
-
-JavaScript
-
-React Router DOM
-
-Backend
-
-Node.js
-
-Express.js
-
-Database
-
-SQLite3
-
-SQL schema & seed data
 
 📂 Project Structure
 movie-management-system/
@@ -123,6 +95,13 @@ movie-management-system/
 │   └── package.json
 │
 └── README.md
+
+| Layer    | Technology              |
+| -------- | ----------------------- |
+| Frontend | React, CSS (Dark Theme) |
+| Backend  | Node.js, Express        |
+| Database | SQLite                  |
+| Tools    | VS Code, Postman        |
 
 
 🛠️ Backend Setup
@@ -157,33 +136,28 @@ http://localhost:3001/
 
 🔗 API Endpoints
 🎬 Movies API
-Method	Endpoint	Description
-GET	/movies/	Get all movies
-GET	/movies/:movieId/	Get movie by ID
-POST	/movies/	Add a movie
-PUT	/movies/:movieId/	Update a movie
-DELETE	/movies/:movieId/	Delete a movie
-GET	/movies/search/:name	Search movies
+Method	       Endpoint	           Description
+GET       	/movies/	          Get all movies
+GET	       /movies/:movieId/	  Get movie by ID
+POST	    /movies/	              Add a movie
+PUT	      /movies/:movieId/	     Update a movie
+DELETE	  /movies/:movieId/	     Delete a movie
+GET	      /movies/search/:name	 Search movies
 🎬 Directors API
-Method	Endpoint	Description
-GET	/directors/	List all directors
-POST	/directors/	Add a director
-GET	/directors/search/:name	Search director
-GET	/directors/:id/movies/	Movies by a director
-🎯 Target Audience
+Method	       Endpoint           	Description
+GET	         /directors/      	List all directors
+POST	       /directors/         Add a director
+GET	     /directors/search/:name	Search director
+GET	   /directors/:id/movies/	  Movies by a director
 
+🎯 Target Audience
 This application is designed for:
 
 Movie lovers
-
 Film library users
-
 Cinema staff
-
 OTT viewers
-
 Reviewers & bloggers
-
 Students learning web development
 
 Users can browse, search, and view movies easily with posters and clean UI.
@@ -191,17 +165,10 @@ Users can browse, search, and view movies easily with posters and clean UI.
 🧪 Future Enhancements
 
 User authentication (login/signup)
-
 Movie categories & genres
-
 Ratings and reviews
-
 Pagination & filtering
-
 Admin dashboard
-
-Dark/Light theme
-
 Upload poster instead of URL
 
 🤝 Contributing
