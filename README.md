@@ -48,21 +48,24 @@ It works like a mini-IMDB with a simple and beautiful UI.
 
 ## 🖼 Screenshots (Add Your Images)
 
-> Upload images to GitHub → Inside `assets/` folder → Replace file names below
+<p align="center">
+  <img src="assets/Home.png" width="75%" />
+</p>
 
+<p align="center">
+  <img src="assets//Movies.png" width="75%" />
+</p>
+
+<p align="center">
+  <img src="assets/AddMovies.png" width="75%" />
+</p>
+
+<p align="center">
+  <img src="assets/SearchMovies.png" width="75%" />
+</p>
 
 ```md
-<p align="center">
-  <img src="assets/dark-home.png" width="75%" />
-</p>
 
-<p align="center">
-  <img src="assets/dark-movies.png" width="75%" />
-</p>
-
-<p align="center">
-  <img src="assets/dark-search.png" width="75%" />
-</p>
 
 
 📂 Project Structure
